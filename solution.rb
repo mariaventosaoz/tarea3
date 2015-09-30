@@ -64,6 +64,6 @@ end
 list.print
 
 
-list.delete(gets.chomp)
+#list.delete(gets.chomp)
 
-list.print
+#list.print
