@@ -38,18 +38,19 @@ class LinkedList
 
 
   def print
-      current_node = @head
+      temp = @head
       String out = ""
-      while current_node != nil
-          out.concat(current_node.dato)
+      while temp != nil
+          out.concat(temp.dato)
           out.concat(",")
-          current_node = current_node.ref
+          temp = temp.ref
       end
       out = out[0...-1]
       puts out
   end
 
 end
+
 
 input1= gets.chomp
 h = Node.new(input1)
